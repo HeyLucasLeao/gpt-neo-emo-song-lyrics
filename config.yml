@@ -1,0 +1,16 @@
+data:
+  path_nacional: /content/drive/MyDrive/data/bandas-brasileiras
+  path_internacional: /content/drive/MyDrive/data/bandas-internacionais
+  saved_root_nacional: /content/drive/MyDrive/data/small-gpt-neo-emo-bot-nacionais-100-epochs
+  saved_root_internacional: /content/drive/MyDrive/data/small-gpt-neo-emo-bot-internacionais-100-epochs
+  output_dir: /content/drive/MyDrive/data/results
+  logging_dir_nacional: /content/drive/MyDrive/data/nacional/logs
+  logging_dir_internacional: /content/drive/MyDrive/data/internacional/logs
+  steps: 10000
+
+model:
+  model_name_nacional: HeyLucasLeao/gpt-neo-small-portuguese
+  model_name_internacional: EleutherAI/gpt-neo-125M
+  learning_rate: 2e-4
+  batch_size: 1
+  num_epochs: 40
